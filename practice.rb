@@ -68,14 +68,14 @@ def get_greatest_diff(arr)
 end
 
 # O(nlog[base 2]n) time
-# 
+# O(n) space
 def get_greatest_diff(arr)
 	sorted = arr.sort()
 	puts sorted[-1] - sorted[0]
 end
 
-# 
-# 
+# O(n) time
+# O(1) space
 def get_greatest_diff(arr)
 	max = arr[0]
 	min = arr[0]
